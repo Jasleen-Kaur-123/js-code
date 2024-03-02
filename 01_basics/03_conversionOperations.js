@@ -19,7 +19,7 @@ let BooleanisLoggedIn = Boolean(isLoggedIn)
 /**************************Operations ***************************/
 let value=3
 let negValue=-value
-console.log(negValue)
+// console.log(negValue)
 
 // console.log(2+2)
 // console.log(2-2)
@@ -28,8 +28,21 @@ console.log(negValue)
 // console.log(2**3) //2 the power 3=>8
 // console.log(2%2)
 
+// console.log("1"+2 +3)
+// console.log(1+ 2+ "4");
 
+let gameChanger=100
+++gameChanger
+// console.log(gameChanger);
 
+let num1, num2, num3
+num1 = num2 = num3 = 2+2*2
+// console.log(num1)
+
+let s1 = "good"
+let s2 = " morning"
+let s3 = s1 + s2
+// console.log(s3);
 
 
 
