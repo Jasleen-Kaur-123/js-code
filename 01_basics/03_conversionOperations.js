@@ -16,9 +16,7 @@ let BooleanisLoggedIn = Boolean(isLoggedIn)
 //1=true , 0=false
 //"" => false
 //"hello" => true
-
-let numberTaken = 33
-let convString=String(numberTaken)
-console.log(convString)
-console.log(typeof convString)
-console.log(typeof numberTaken)
+/**************************Operations ***************************/
+let value=3
+let negValue=-value
+console.log(negValue)
