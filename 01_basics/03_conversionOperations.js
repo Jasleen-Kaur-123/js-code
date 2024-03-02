@@ -20,3 +20,16 @@ let BooleanisLoggedIn = Boolean(isLoggedIn)
 let value=3
 let negValue=-value
 console.log(negValue)
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2/2)
+// console.log(2**3) //2 the power 3=>8
+// console.log(2%2)
+
+
+
+
+
+
