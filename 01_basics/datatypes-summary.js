@@ -24,3 +24,18 @@ const myFunction=function(){
     console.log("Hello world")
 }
 
+//****************************************************************
+let myYoutubename = "JasleenKaur"
+let anothername =  myYoutubename
+anothername = "kaurdhillon"
+// console.log(myYoutubename)
+// console.log(anothername);
+
+let userOne ={
+    gmail:"google@gmail.com",
+    userId:"1234"
+}
+let userTwo = userOne
+userTwo.gmail = "book@gmail.com"
+console.log(userOne.gmail);
+console.log(userTwo.gmail);
