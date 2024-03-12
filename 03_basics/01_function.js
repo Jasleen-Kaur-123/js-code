@@ -4,7 +4,7 @@ function myName(){
     console.log("U")
     console.log("R")
 }
-// myName()
+myName()
 
 // function toAddTwoNumber(number1,number2,number3){
 //     console.log(number1+number2+number3)
