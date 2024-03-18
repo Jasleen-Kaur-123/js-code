@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dom</title>
 </head>
-<body>
+<body style="background-color: black; color: white;">
     <div class="parent">
         <div class="days">Monday</div>
         <div class="days">Tuesday</div>
@@ -13,4 +13,16 @@
         <div class="days">Thursday</div>
     </div>
 </body>
+<script>
+    const him = document.querySelector('.parent')
+    console.log(him)
+    console.log(him.children)
+    console.log(him.children[2].innerHTML)
+
+    for(let i=0;i<him.children.length;i++){
+        console.log(him.children[i].innerHTML);
+    }
+
+    
+</script>
 </html>
