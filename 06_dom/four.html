@@ -35,7 +35,11 @@
     secondLang.replaceWith(newli)
 
     //edit
-    const firstLang=document.querySelector('li:firstchild')
+    const firstLang=document.querySelector('li:first-child')
     firstLang.outerHTML="<li>Pogo</li>"
+
+    //remove
+    const remLastLang = document.querySelector('li:last-child')
+    remLastLang.remove()
 </script>
 </html>
