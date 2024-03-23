@@ -10,4 +10,32 @@
         <li>Javascript</li>
     </div>
 </body>
+<script>
+    function addLanguage(langName){
+        const li = document.createElement('li')
+        li.innerHTML= `${langName}`
+        document.querySelector('.language').appendChild(li)
+    }
+    addLanguage("Java")
+
+    //optimize way to write code so that it not traverse whole tree
+    function addOptiLanguage(LangName){
+      const li = document.createElement('li')
+      li.appendChild(document.createTextNode(LangName))
+      document.querySelector('.language').appendChild(li)  
+    }
+    addOptiLanguage("c#")
+    addOptiLanguage("c++")
+
+    //Edit
+    const secondLang=document.querySelector('li:nth-child(2)')
+    // secondLang.innerHTML="Mojo"
+    const newli=document.createElement('li')
+    newli.textContent="Mojo"
+    secondLang.replaceWith(newli)
+
+    //edit
+    const firstLang=document.querySelector('li:firstchild')
+    firstLang.outerHTML="<li>Pogo</li>"
+</script>
 </html>
