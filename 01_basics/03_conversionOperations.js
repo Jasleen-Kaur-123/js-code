@@ -9,15 +9,15 @@ let scoreInNumber=Number(score)
 //null => 0
 //undefined => NaN (not a number)
 
-let isLoggedIn="hello"
+let isLoggedIn=0
 let BooleanisLoggedIn = Boolean(isLoggedIn)
 // console.log(BooleanisLoggedIn)
 
 //1=true , 0=false
-//"" => false
+//"" => false , 0 =>false , null=>false , undefined =>false
 //"hello" => true
 /**************************Operations ***************************/
-let value=3
+let value=undefined  //""=>-0 ,null=>-0,undefined=>NaN
 let negValue=-value
 // console.log(negValue)
 
@@ -25,18 +25,19 @@ let negValue=-value
 // console.log(2-2)
 // console.log(2*2)
 // console.log(2/2)
-// console.log(2**3) //2 the power 3=>8
+// console.log(2**3) //2 the power 3=>8 (2*2*2->8)
 // console.log(2%2)
 
+// {JavaScript is also a weakly typed language, which means it allows implicit type conversion when an operation involves mismatched types, instead of throwing type errors.}
 // console.log("1"+2 +3)
-// console.log(1+ 2+ "4");
+// console.log(1+ 2+ "4"); 
 
 let gameChanger=100
 ++gameChanger
 // console.log(gameChanger);
 
 let num1, num2, num3
-num1 = num2 = num3 = 2+2*2
+num1 = num2 = num3 = 2+2*2 //2+2+2->6
 // console.log(num1)
 
 let s1 = "good"
@@ -44,5 +45,10 @@ let s2 = " morning"
 let s3 = s1 + s2
 // console.log(s3);
 
+let x = 3;
+const y = x++;
+console.log(`x:${x}, y:${y}`);
 
-
+let xnew = 3
+const ynew = ++xnew
+console.log(`x:${xnew}, y:${ynew}`)

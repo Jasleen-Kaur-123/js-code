@@ -2,8 +2,9 @@ const accountId = 12345
 let accountEmail = "abc@gmail.com"
 var accountName = "State Bank of India"
 accountCity="Delhi"
+console.table([accountId,accountEmail,accountName,accountCity])
 
-// accountId=121212
+// accountId=121212 
 
 accountEmail="avb@gmail.com"
 accountName="Kaur"
@@ -12,7 +13,7 @@ var none;
 
 console.table([accountId,accountEmail,accountName,accountCity,none])
 
-function a(){
-    console.log("Hello!I am function A")
-}
-a()
+// function a(){
+//     console.log("Hello!I am function A")
+// }
+// a()
